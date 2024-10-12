@@ -1,0 +1,14 @@
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Optional styling for the checkbox */
+.input-group input[type="checkbox"] {
+    margin-right: 10px;
+}
