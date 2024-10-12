@@ -23,6 +23,8 @@ document.getElementById('login-form').addEventListener('submit', function (e) {
     if (username === 'admin' && password === 'password123') {
         alert('Login successful!');
         // Redirect or perform other actions upon successful login
+        window.location.href = 'flashcard.html';
+
     } else {
         errorMessage.textContent = 'Invalid username or password!';
     }
